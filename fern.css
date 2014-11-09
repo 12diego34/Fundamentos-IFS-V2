@@ -1,0 +1,55 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#myCanvas {
+	margin: 0;
+}
+
+#wrapper {
+	position: relative;
+	border: 1px solid #099461;
+}
+
+#buttonWrapper {
+	position: fixed;
+	padding: 5px;
+	margin: 10px;
+	top: 0;
+	left: 0;
+	float: left;
+	background-color: rgba(255,255,255,0.85);
+	border: 2px solid #ccc;
+	width: 220px;
+}
+
+input[type ="button"] {
+	padding: auto;
+	width: 60px;
+	height: 60px;
+	margin: 10px 23px;
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+div.clear {
+	clear: both;
+}
+
+p.text {
+	font-size: 12px;
+	clear: both;
+	margin: 5px;
+	width: 200px;
+}
+
+p.instructions {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 22px;
+	margin: 5px 12px 12px 12px;
+}
